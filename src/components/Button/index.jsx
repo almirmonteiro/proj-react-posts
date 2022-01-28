@@ -3,10 +3,10 @@ import './styles.css';
 
 export class Button extends Component {
   render() {
-    const { text, fClick, disabled } = this.props;
+    const { text, fClick } = this.props;
     return (
       <button
-        disabled={disabled}
+        //disabled={disabled}
         className='button'
         onClick={fClick}>
         {text}
