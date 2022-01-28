@@ -7,7 +7,7 @@ import { Posts } from '../../components/Posts';
 import { Button } from '../../components/Button';
 import { TextInput } from '../../components/TextInput';
 
-class Home extends Component {
+export default class Home extends Component {
   state = {
     posts: [],
     allPosts: [],
@@ -108,4 +108,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+//export default Home;
